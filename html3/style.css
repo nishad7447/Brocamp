@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    display: block;
+    justify-content: space-between;
+    padding:30px 35% 0 35% ;
+}
+.navBar iframe{
+    width: 80%;
+}
+.firstContent{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10%;   
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.whatsBrocampImg{
+    display: inline-block;
+}
+.firstContent iframe{
+    width: 605px ;
+}
+.contentTutionFee{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.contentTutionFee h3{
+    display: block;
+    font-size: 48px;
+    font-weight: 1000;
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    width: 410px;
+}
+.contentTutionFee small,a{
+    display: block;
+}
+.contentTutionFee small{
+    line-height: 1.7;
+    color: gray;
+    font-weight: 200;
+    font-size: 18px;
+    width: 310;
+    margin-bottom: 10px;
+}
+.contentTutionFee a{
+    text-decoration: none;
+    font-size: 16px;
+    width: 80px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border-width: 2px;
+    background: #00d2b5;
+    border-color: #00d2b5;
+    color: black;
+    box-shadow: -15 4px 20px -5px rgb(0 210 181 / 40%);
+    margin-bottom: 10px;
+}
+.contentTutionFee a:hover{
+    padding: 8px 28px;
+    border: 2px solid #00d2b5;
+    background: #f7f9f9;
+    transition: background .7s;
+}
+.secondContent{
+    background: #f6f6f6
+}
+.secondContent h1{
+    font-family: Montserrat;
+    font-size: 40px;
+    display: block;
+    font-size: 48px;
+    font-weight: 1000;
+    padding: 30px 0;
+    text-align: center;
+}
+.threeBox{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10%;
+    padding-bottom: 30px;
+}
+.threeBox div{
+    background-color: white;
+    align-items: center;
+    margin-right: 30px;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 220px;
+    max-height: 250px;
+}
+.threeBox div:hover{
+    background-color: #00d2b5;
+    transform: scaleY(1.1);
+    transform-origin: bottom;
+    transition: .6s all ease-out;
+}
+.threeBox span{
+    display: block;
+    margin-top: 10px;
+    line-height: 21px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #616060;
+}
+.threeBox p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.trdBox{
+    margin-right: -30px;
+}
+.thirdContent{
+    margin: 5% 10%;
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.thirdContent iframe{
+    width: 605px ;
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+.brocampBrief{
+    display: inline-block;
+}
+.brocampBrief h2{
+    font-family: Montserrat;
+    font-size: 40px;
+    display: block;
+    font-size: 48px;
+    font-weight: 1000;
+    padding: 30px 0;
+}
+.brocampBrief p{
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: 16px;
+}
+.fourthContent{
+    margin: 0 15%;
+}
+.fourthContent h1{
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+    font-size: 40px;
+}
+.fourthContentImgDigram img{
+    margin-top: 25px;
+    width: 900px;
+}
+.fourthContentImgYT iframe{
+    margin: 30px 0;
+    width: 900px;
+    height: 600px;
+}
+.fifthContent{
+    background: #f6f6f6
+}
+.boxes{
+    padding: 40px 10%;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.box a{
+    text-decoration: none;
+    width: 370px;
+    height: 50px;
+    padding: 30px 50px;
+    background-color: white;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    color: #000;
+}
+.box a:hover{
+    background-color: #00d2b5;
+    transform: scaleY(1.05);
+    transition: .6s all ease-out;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+}
+.box1 a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 50px;
+    padding: 30px 50px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #000;
+
+}
+.box1 a:hover{
+    background-color: #00d2b5;
+    transform: scaleY(1.05);
+    transition: .6s all ease-out;
+}
+.box1 a small{
+    margin-top: 10px;
+    color: #808080;
+    font-weight: 300;
+    font-size: 15px;
+}
+.sixthContent {
+    margin: 0 10%;
+}
+.wantJoinBrocamp{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    font-size: 22px;
+}
+.weJoinBrocamp{
+    margin-top: 40px;
+}
+.weJoinBrocamp iframe{
+    width: 100%;
+    height: 500px;
+}
+.rootMap2 img{
+    width: 100%;
+    padding: 20px 0;
+}
+.feeStructure iframe{
+    width: 100%;
+    height: 500px;
+}
+.convo{
+    font-size: 22px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.convo h2{
+    border-bottom: 1px solid gray;
+    width: 176px;
+}
+.convocationVideo iframe{
+    width: 100%;
+    height: 500px;
+}
+.faq{
+    font-size: 22px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+}
+.faq h2{
+    border-bottom: 1px solid gray;
+    width: 76px;
+}
+.seventhContent{
+    margin: 0 10%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+.footer{
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid gray;
+}
+.footer img{
+    margin-bottom: 10px;
+    width: 15px;
+    cursor: pointer;
+}
+.details{
+    padding: 5% 25%;
+}
+.address h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.address span{
+    font-size: 15px;
+    color: #00d2b5;
+    line-height: 26px;
+}
+.address img{
+    width: 15px;
+    margin-left:  -10px;
+    margin-right: 5px;
+}
